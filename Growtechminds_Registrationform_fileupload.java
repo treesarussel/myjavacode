@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
-public class Growtechminds_Registrationform_fileupload {
+public class Growtechminds_Registrationform_fileupload{
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
@@ -61,7 +61,7 @@ public class Growtechminds_Registrationform_fileupload {
     // Thread.sleep(1000);
     WebElement submit= driver.findElement(By.name("Submit"));
     submit.click();
-    driver.switchTo().alert().accept();
+    driver.switchTo().alert().accept();//handled the popup
     Thread.sleep(2000);
     driver.quit();
     
