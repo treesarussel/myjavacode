@@ -13,6 +13,7 @@ public class Google_Search_India_and_Click_by_namelocator {
 		driver.manage().window().maximize();
 		driver.findElement(By.name("q")).sendKeys("India");
 		driver.findElement(By.name("btnK")).click();
+		driver.quit();
 		
 		
 		
